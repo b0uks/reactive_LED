@@ -58,13 +58,13 @@
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/b0uks/vibe-check.git
-   cd vibe-check
+   git clone https://github.com/b0uks/reactive_LED.git
+   cd reactive_LED
    ```
 2. **Open the Project in Arduino IDE**
 
 Launch the Arduino IDE.
-Open the VibeCheck.ino file from the cloned repository.
+Open the `Reactive_LED.ino` file from the cloned repository.
 3. **Install FastLED Library**
 
 In the Arduino IDE, navigate to Sketch > Include Library > Manage Libraries...
@@ -116,14 +116,15 @@ A variety of functions like `allColor`, `allRandom`, `disolve`, `flash`, `colorW
 
 ## 📁 Project Structure
 ```bash
-vibe-check/
-├── VibeCheck.ino        # Main Arduino sketch
-├── README.md            # Project documentation
-└── LICENSE              # Licensing information
+reactive_LED/
+├── Reactive_LED.ino        # Main Arduino sketch
+├── README.md               # Project documentation
+└── LICENSE                 # Licensing information
 ```
-VibeCheck.ino: Contains the Arduino code controlling the LED effects.
-README.md: This documentation file.
-LICENSE: Licensing details for the project.
+- **Reactive_LED.ino**: Contains the Arduino code controlling the LED effects.
+- **README.md**: This documentation file.
+- **LICENSE**: Licensing details for the project.
+- 
 ## 🧪 Testing
 To verify that the LED effects work as intended:
 1. Power the Setup
