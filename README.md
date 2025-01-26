@@ -50,7 +50,7 @@
    - Place a `470Ω` resistor between the Arduino's data pin and the LED strip's data input.
    - Connect a `1000µF` capacitor across the LED strip's `5V` and `GND` to stabilize power.
 
-   ![Wiring Diagram]([https://github.com/b0uks/reactive_LED/blob/main/LED_IDA_bb.pdf])
+   ![Wiring Diagram](https://github.com/b0uks/reactive_LED/blob/main/LED_IDA_bb.pdf)
 
 ### 🖥️ Software Setup
 
