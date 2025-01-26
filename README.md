@@ -1,18 +1,18 @@
-# Vibe Check
+# Reactive_LED
 
-![License](https://img.shields.io/github/license/b0uks/vibe-check)
-![Issues](https://img.shields.io/github/issues/b0uks/vibe-check)
-![Forks](https://img.shields.io/github/forks/b0uks/vibe-check)
-![Stars](https://img.shields.io/github/stars/b0uks/vibe-check)
+![License](https://img.shields.io/github/license/b0uks/reactive_LED)
+![Issues](https://img.shields.io/github/issues/b0uks/reactive_LED)
+![Forks](https://img.shields.io/github/forks/b0uks/reactive_LED)
+![Stars](https://img.shields.io/github/stars/b0uks/reactive_LED)
 
 ## 📖 About
 
-**Vibe Check** is an Arduino-based project that brings vibrant and dynamic lighting effects to your LED strips using the [FastLED](https://fastled.io/) library. Whether you're looking to enhance your home decor, create ambient lighting for events, or simply experiment with LED animations, Vibe Check offers a variety of customizable effects to set the perfect mood.
+**Reactive_LED** is an Arduino-based project that brings vibrant and dynamic lighting effects to your LED strips using the [FastLED](https://fastled.io/) library. Whether you're enhancing your home decor, creating ambient lighting for events, or experimenting with LED animations, Reactive_LED offers a variety of customizable effects to set the perfect mood.
 
 ## 🚀 Features
 
 - **Rainbow Cycles**: Display a spectrum of colors that smoothly transition across the LED strip.
-- **Color Wipe**: Sequentially illuminate LEDs in a forward or backward direction with adjustable speed.
+- **Color Wipe**: Sequentially illuminate LEDs in forward or backward directions with adjustable speed.
 - **Random Colors**: Generate and display random colors across all LEDs for a lively ambiance.
 - **Dissolve Effect**: Randomly turn off a specified number of LEDs to create a fading effect.
 - **Stripes**: Alternate between two colors in striped patterns with customizable width.
@@ -49,6 +49,7 @@
 2. **Add a Resistor and Capacitor**
    - Place a `470Ω` resistor between the Arduino's data pin and the LED strip's data input.
    - Connect a `1000µF` capacitor across the LED strip's `5V` and `GND` to stabilize power.
+
 
    ![Wiring Diagram](https://github.com/b0uks/reactive_LED/blob/main/LED_IDA_bb.pdf)
 
